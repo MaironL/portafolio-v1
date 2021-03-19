@@ -109,7 +109,7 @@
                 }
 
                 .dropdown__button {
-                    background-color: #3e8e41;
+                    background-color: var(--blue-logo);
                 }
             }
 
@@ -125,10 +125,12 @@
             }
 
             &__content {
-                top: 65%;
+                top: 58%;
+                border-radius: 5px;
+                border: 1px solid var(--darker--gray);
                 display: none;
                 position: absolute;
-                background-color: #f1f1f1;
+                background-color: var(--black-primary);
                 list-style: none;
                 min-width: 2.5rem;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -137,24 +139,26 @@
             }
 
             &__link {
+                display: block;
                 font-family: inherit;
                 font-size: var(--fz-normal);
                 padding: 5px 6px;
                 text-decoration: none;
                 margin: 0;
-                display: block;
-                color: var(--black-primary);
+                color: var(--white-text);
                 font-weight: 500;
-                transition: color 300ms;
                 text-align: center;
+                width: 100%;
+                transition: color 300ms;
                 
                 //inicio links hover
                 &:hover {
-                    background-color: #ddd;
+                    //background-color: #ddd;
                     display: inline-block;
-                    color: var(--blue-logo);
-                    transform: scale(1.05);
-                    text-align: center;
+                    transform: scale(1.04);
+                    border-top: 1px solid var(--darker--gray);
+                    border-bottom: 1px solid var(--darker--gray);
+                    
                 }
             }
 
