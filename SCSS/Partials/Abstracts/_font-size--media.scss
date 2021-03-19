@@ -1,0 +1,8 @@
+@media screen and (min-width: 280px) {
+    :root {
+        font-size: calc(14px + 8 * ((100vw - 280px) / 1640));
+    }
+    p {
+        line-height: calc(19.6px + 11.2 * ((100vw - 280px) / 1640));
+    }
+}
