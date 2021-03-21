@@ -18,7 +18,7 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    top:10px;
+    top: 10px;
     z-index: 100;
     background-image: url(../svg/bg-stars.svg);
     background-size: 70%;
@@ -176,7 +176,7 @@
 //Inicio del home
 .home {
     background-image: url(../svg/bg-stars.svg);
-    height: 106vh;
+    height: 100vh; //colocar en 106vh
 
     //inicio geometria de elementos en home
     &__inner {
@@ -350,9 +350,10 @@
     grid-template-rows: 3fr;
     justify-items: center;
 
-    #projects{
+    #projects-top{
         position: absolute;
         top: -6.5%;
+        visibility: hidden;
     }
 
     //inicio geometria de los subtitulos

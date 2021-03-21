@@ -12,13 +12,13 @@
 <body>
     <article class="page">
         <!--Inicio del header de la pagina-->
-        <div class="page__header">
+        <div id="navbar" class="page__header">
             <header class="header" > 
                 <img class="logo header__logo" src="static/img/logo.png" alt="logo de la pagina"> 
                 <nav>
-                    <ul id="navbar" class="list header__list">
+                    <ul class="list header__list">
                         <li><a class="list__link" href="#welcome-section">HOME</a></li>
-                        <li><a class="list__link" href="#projects">PROJECTS</a></li>
+                        <li><a class="list__link" href="#projects-top">PROJECTS</a></li>
                         <li><a class="list__link" href="#about">ABOUT ME</a></li>
                         <li><a class="list__link" href="#contact">CONTACT</a></li>
                     </ul>
@@ -26,7 +26,7 @@
                         <button class="dropdown__button">|||</button>
                         <ul class="dropdown__content">
                             <li><a class="dropdown__link" href="#welcome-section">HOME</a></li>
-                            <li><a class="dropdown__link" href="#projects">PROJECTS</a></li>
+                            <li><a class="dropdown__link" href="#projects-top">PROJECTS</a></li>
                             <li><a class="dropdown__link" href="#about">ABOUT ME</a></li>
                             <li><a class="dropdown__link" href="#contact">CONTACT</a></li>
                         </ul>
@@ -62,8 +62,8 @@
 
             <!-- Inicio seccion proyectos-->
             
-            <section class="projects">
-            <div id="projects">.</div>
+            <section id="projects" class="projects">
+            <div id="projects-top">.</div>
                 <!--inicio subtitulo de seccion--proyectos-->
                 <header class="subtitle projects__subtitle">
                     <div class="subtitle__inner">
@@ -73,11 +73,11 @@
                 <!--final subtitulo de seccion--proyectos-->
 
                 <!--Inicio de proyecto 1-->
-                <section class="prj project-tile">
+                <section class="prj">
                     <header class="prj__header"><h3>Projects title 1</h3></header>
                     <hr class="prj__line">
                     <div class="prj__inner">
-                        <a class="prj__link" href="#" target="_blank">
+                        <a class="project-tile" href="#" target="_blank">
                             <div class="prj__go">Go to link</div>
                             <div class="responsive prj__responsive">
                                 <img class="responsive__pc" src="static/img/pc-p1.png" alt="pc-responsive">
@@ -314,6 +314,7 @@
         </footer>
         <!--final del footer-->
     </article>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
