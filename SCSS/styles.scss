@@ -119,9 +119,17 @@
                 font-size: var(--fz-normal);
                 font-weight: 500;
                 font-family: inherit;
-                padding: .5rem 2.5rem;
+                padding: .15rem 2.3rem;
                 border-radius: 30px;
                 border: none;
+            }
+            &__icon {
+                font-size: var(--fz-big);
+                font-weight: bold;
+                display: block;
+                padding-bottom: 8px;
+                text-align: center;
+                transform: rotate(90deg);
             }
 
             &__content {
